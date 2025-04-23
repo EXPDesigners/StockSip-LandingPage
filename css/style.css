@@ -4,14 +4,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 :root {
-  --blue:#263238;
-  --magenta:#880E4F;
-  --purple:#8E24AA;
-  --red:#DD0031;
+  --wine:#26021D;
+  --magenta:#59033A;
+  --purple:#6E0081;
+  --golden:#D98C4A;
   --dark-text: #fff;
   --dark-background: #222;
-  --light-text: #4E4E4E;
-  --light-background: #F4EDE4;
+  --light-text: #323130;
+  --light-background: #F7EDDC;
 }
 
 * {
@@ -41,16 +41,10 @@ body {
   color: var(--light-text);
 }
 
-.dark-mode {
-  background-color: var(--dark-background);
-  color: var(--dark-text);
-
-}
-
 .btn {
   display: inline-block;
   border-radius: 5rem;
-  background:#880E4F;
+  background-color: var(--magenta);
   color:#fff;
   padding:0.8rem 2.4rem;
   cursor: pointer;
@@ -195,7 +189,7 @@ header .fa-bars {
   justify-content: space-around;
   padding: 2rem;
   color: var(--light-background);
-  background-color: var(--blue);
+  background-color: var(--wine);
   gap: 2rem;
   flex-wrap: wrap;
 }
@@ -231,6 +225,8 @@ header .fa-bars {
   margin-bottom: 0.5rem;
   font-weight: 400;
 }
+
+
 
 footer {
   background-color: var(--magenta);
