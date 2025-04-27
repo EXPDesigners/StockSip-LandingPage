@@ -385,6 +385,64 @@ footer {
   color: var(--purple);
 }
 
+.benefits_section {
+  background-color: var(--light-background);
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.benefits_title {
+  color: var(--wine);
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 64px;
+  margin: 2rem;
+}
+
+.benefits_container {
+  background-color: var(--purple);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50rem;
+}
+
+.benefits_container_title {
+  color: var(--light-background);
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 2rem;
+}
+
+.benefits_container_list {
+  background-color: var(--light-background);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2rem 0;
+}
+
+.benefits_column {
+  display: flex;
+  justify-content: center;
+}
+
+.benefits_ul {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 500px;
+}
+
+.benefits_list {
+  color: var(--wine);
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  padding: 2rem;
+}
+
 .footer-divider {
   border: 1px solid #ccc;
 }
