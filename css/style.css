@@ -259,29 +259,6 @@ header .fa-bars {
   background-color: var(--purple);
 }
 
-.image {
-    flex: 1 1 500px;
-    max-width: 600px;
-}
-
-
-.doodle {
-  position: absolute;
-  top: -20px;
-  right: -20px;
-  font-size: 2rem;
-  color: #bbb;
-}
-
-.doodle-bottom {
-  position: absolute;
-  bottom: -20px;
-  right: -20px;
-  font-size: 2rem;
-  color: #bbb;
-  transform: rotate(30deg);
-}
-
 /* Stats Section */
 
 .stats-section {
@@ -614,7 +591,6 @@ header .fa-bars {
   max-width: 900px;
   margin: 0 auto;
 }
-
 
 .video-title {
   font-size: 5rem;
