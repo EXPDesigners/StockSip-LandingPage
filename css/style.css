@@ -128,6 +128,25 @@ header .fa-bars {
   display: none;
 }
 
+.language-selector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-left: 1rem;
+  background-color: var(--wine);
+  border-radius: 5rem;
+  padding: 1rem;
+}
+
+.language-selector button {
+  font-size: 2rem;
+  font-family: "Inter", sans-serif;
+  color: var(--light-background);
+  background-color: var(--wine);
+  cursor: pointer;
+}
+
 .menu-toggle {
   display: none;
   font-size: 3rem;
@@ -591,6 +610,7 @@ header .fa-bars {
   max-width: 900px;
   margin: 0 auto;
 }
+
 
 .video-title {
   font-size: 5rem;
