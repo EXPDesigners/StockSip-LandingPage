@@ -410,7 +410,7 @@ header .fa-bars {
 }
 
 .start-button:hover {
-  background-color: #45a049;
+  background-color: var(--purple);
 }
 
 /* Features Section */
