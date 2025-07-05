@@ -18,6 +18,7 @@ This is the landing page for StockSip, a platform that allows liquor store owner
 - **HTML5**: For structuring the content of the landing page.
 - **CSS3**: For styling the page and ensuring responsiveness.
 - **JavaScript**: For interactive elements and functionality. Used for the redirect button and i18n functionality.
+- **i18n**: Internationalization support to cater to a global audience, allowing for easy translation of the content.
 
 ## Sections ##
 
