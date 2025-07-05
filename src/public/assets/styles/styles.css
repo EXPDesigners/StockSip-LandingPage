@@ -638,12 +638,65 @@ header .fa-bars {
   height: 100%;
 }
 
+.team-section {
+  .team-title {
+    font-size: 5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    color: var(--wine);
+  }
+  p {
+    font-size: 2.5rem;
+    font-family: "Inter", sans-serif;
+    color: var(--purple);
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 4rem;
+  }
+}
+.team-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+  margin-top: 8rem;
+}
+
+.team-card {
+  margin-top: 6rem;
+  font-family: "Inter", sans-serif;
+  font-size: 2.5rem;
+  display: inline-block;
+  width: 300px;
+  background-color: white;
+  color: var(--magenta);
+  border-radius: 20px;
+  border: 5px solid var(--wine);
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  p {
+    margin-top: 10px;
+    font-size: 2rem;
+    color: var(--wine);
+    font-weight: 400;
+  }
+  img {
+    width: 210px;
+    height: 250px;
+    margin-bottom: 30px;
+  }
+}
 
 /* Testimonials Section */
 
 #testimonials {
   font-family: "Poppins", sans-serif;
   justify-items: center;
+  margin-bottom: 12rem;
 }
 
 #testimonials .testimonials__header {
